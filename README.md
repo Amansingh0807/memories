@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# 📸 Memories
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Memories is a full-stack MERN (MongoDB, Express, React, Node.js) web application that allows users to create profiles and share their memorable moments through photos and captions. Users can view, like, and share posts with their peers, building a collaborative memory board.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- User authentication (Register / Login with JWT)
+- Create, update, delete, and like memory posts
+- Upload and preview images
+- Share memories with peers
+- Responsive and intuitive UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- **Frontend**: React, Redux Toolkit, Material-UI
+- **Backend**: Node.js, Express.js, MongoDB, JWT
+- **Database**: MongoDB Atlas
+- **Image Upload**: Cloudinary
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
+## 🚧 Setup Instructions
 
-### `npm run build`
+### 📦 Backend (Node/Express)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd server
+npm install
+npm run dev
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🌐 Frontend (React)
+```
+cd client
+npm install
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🤝How to make Contribution
 
-### `npm run eject`
+We welcome contributions from developers of all skill levels! Whether you're fixing a bug, adding new features, or improving documentation, your help is appreciated. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To contribute:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. ⭐ Star the repository to show your support.
+2. 📝 Create an issue outlining how you'd like to contribute to the project.
+3. 🍴 Fork the repository to make your own copy:
+   ```sh
+   # Click on the "Fork" button at the top right of the repository page
+4. 💻 Implement your changes in the forked repository by creating a new branch for your feature or fix:
+   ```
+   git checkout -b feature-or-fix-name
+   ```
+5. Make your changes and commit them using Conventional Commits:
+   ```
+   git commit -m "feat: describe your changes"
+   ```
+6. 🔄 Push your branch:
+   ```
+   git push origin feature-or-fix-name
+   ```
+7. Open a pull request and describe the changes you made, mentioning the issue number you're addressing.
+8. ⏳ Wait for review and feedback from the maintainers.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
